@@ -1,0 +1,67 @@
+main {
+    width: 25em;
+    margin: auto;
+}
+
+.input {
+    align-items: center;
+}
+
+.input input:not(.notInput) {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,0.85);
+
+    height: 2em;
+    width: 14em;
+}
+
+
+.buttonConnect,
+a.connectpage {
+    
+
+    border-radius: 5em;
+    border: 1px solid black;
+
+    height: 2em;
+    font-size: 1em;
+
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.buttonConnect {
+    background: linear-gradient(45deg, #1B00FF, #7EDCED);
+}
+
+a.connectpage {
+    background-color: #3B3939;
+}
+
+hr {
+    border-color: antiquewhite;
+    width: 100%;
+}
+
+.success {
+    background-color: rgba(0, 255, 0, 0.2);
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 1px solid green;
+    border-radius: 0.5em;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.2);
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 0.5em;
+}

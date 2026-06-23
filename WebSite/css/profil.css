@@ -1,0 +1,112 @@
+#photoProfil {
+    background-image: url("./profilIcon.webp");
+    background-size: 120%;
+    background-position: center;
+    background-color: white;
+
+    border-radius: 100%;
+    
+    width: 5em;
+    height: 5em;
+}
+
+.photoProfil {
+    background-image: url("./profilIcon.webp");
+    background-size: 120%;
+    background-position: center;
+    background-color: white;
+
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+}
+
+.fond {
+    background-color: #3b3a3a;
+}
+
+.fond .fond {
+    background-color: #2b2a2a;
+}
+
+#statistiques {
+    flex-basis: 50%;
+}
+
+#identification,
+#otherInfo {
+    flex-basis: 25%;
+}
+
+#statistiques > div {
+    align-items: stretch;
+}
+
+#historiqueParties {
+    flex-basis: 70%;
+}
+
+#infosDynamiques {
+    flex-basis: 30%;
+}
+
+.statTitle {
+    font-variant: small-caps;
+}
+
+.statItem {
+    flex-basis: 8em;
+}
+
+.statValue {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even).victory td:nth-child(3) {
+    background-color: #076811;
+}
+tr:nth-child(odd).victory td:nth-child(3) {
+    background-color: #13ab22;
+}
+
+tr:nth-child(even).defeat td:nth-child(3) {
+    background-color: #8b0000;
+}
+tr:nth-child(odd).defeat td:nth-child(3) {
+    background-color: #ce3737;
+}
+
+tr:nth-child(even).draw td:nth-child(3) {
+    background-color: #555555;
+}
+tr:nth-child(odd).draw td:nth-child(3) {
+    background-color: #777777;
+}
+
+td {
+    padding: 1em 2em;
+}
+
+thead {
+    background-color: #4c6df6;
+}
+
+
+tr {
+    height: 3em;
+    border-bottom: 1px solid #2b2a2a;
+}
+
+tr:nth-child(even) {
+    background: #2b2a2a;
+}

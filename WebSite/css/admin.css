@@ -1,0 +1,105 @@
+.photoProfil {
+    background-image: url("./profilIcon.webp");
+    background-size: 120%;
+    background-position: center;
+    background-color: white;
+
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+}
+
+
+
+#section1 {
+    flex-basis: 65%;
+}
+
+#section2 {
+    flex-basis: 35%;
+}
+
+#identification {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even).victory td:nth-child(3) {
+    background-color: #076811;
+}
+tr:nth-child(odd).victory td:nth-child(3) {
+    background-color: #13ab22;
+}
+
+tr:nth-child(even).defeat td:nth-child(3) {
+    background-color: #8b0000;
+}
+tr:nth-child(odd).defeat td:nth-child(3) {
+    background-color: #ce3737;
+}
+
+tr:nth-child(even).draw td:nth-child(3) {
+    background-color: #555555;
+}
+tr:nth-child(odd).draw td:nth-child(3) {
+    background-color: #777777;
+}
+
+td {
+    padding: 1em 2em;
+}
+
+thead {
+    background-color: #4c6df6;
+}
+
+
+tr {
+    height: 3em;
+    border-bottom: 1px solid #2b2a2a;
+}
+
+tr:nth-child(even) {
+    background: #2b2a2a;
+}
+
+.btn {
+    background-color: #4c6df6;
+    color: white;
+    padding: 0.2em 0.8em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #4336ff;
+}
+
+
+.joueur {
+    padding: 0.8em 0.5em;
+}
+
+.joueur:nth-child(even) {
+    background-color: #2b2a2a;
+}
+
+
+.statTitle {
+    font-variant: small-caps;
+}
+
+.statItem {
+    flex-basis: 8em;
+}
+
+.statValue {
+    font-size: 1.5em;
+    font-weight: bold;
+}
