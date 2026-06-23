@@ -1,0 +1,145 @@
+html, 
+body { height: 100%; margin: 0; }
+body {
+    text-align: center;
+}
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+main {
+
+    border-radius: 20px;
+    margin: 2em;
+    padding: 2em;
+
+}
+section{
+
+    background-color: #505050;
+    border-radius: 20px;
+    margin: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+    padding-bottom: 5em;
+
+}
+hr{
+
+    width: 95%;
+    margin: auto;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+
+    list-style-type: none;
+    
+}
+nav ul li{
+
+    display: inline-block;
+    margin: 0 1em;
+    width: 100px;
+    background: linear-gradient(45deg, #1B00FF, #7EDCED);
+    padding: 0.5em 1em;
+    border-radius: 40px;
+    border: 2px solid rgba(0,0,0,0.6);
+}
+
+nav ul li:hover{
+
+    background: linear-gradient(45deg, #7EDCED, #1B00FF);
+    border: 2px solid rgba(0,0,0,0.8);
+}
+h2{
+
+    padding : 2em;
+}
+
+#presentation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#presentation-texte {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+#imagepresentation{
+
+    width: 50%;
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    border-left : 2px #C4C4C4 solid;
+}
+
+#header-presentation, 
+#header-regles, 
+#header-classement{
+
+    margin-left : 1em;
+    margin-right : 1em;
+    padding: 0;
+}
+
+#header-presentation {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-regles, 
+#header-classement {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#presentation-texte nav,
+#regles nav {
+
+    position: absolute;
+    left: 0.3em;
+    bottom: 0.3em;
+}
+
+#presentation-texte nav ul,
+#regles nav ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+#presentation-texte nav ul li,
+#regles nav ul li {
+
+    width: 160px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
