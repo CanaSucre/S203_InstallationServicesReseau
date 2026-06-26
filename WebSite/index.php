@@ -39,10 +39,10 @@
             <ul>
                 <li><a href="classement.html">Classement</a></li>
                 <?php if (!$estConnecte): ?>
-                    <li><a href="https://regabillard.fr/IUT/s203/login/signup.php">S'inscrire</a></li>
-                    <li><a href="https://regabillard.fr/IUT/s203/login/login.php">Se connecter</a></li>
+                    <li><a href="signup.php">S'inscrire</a></li>
+                    <li><a href="login.php">Se connecter</a></li>
                 <?php else: ?>
-                    <li><a href="https://regabillard.fr/IUT/s203/profil/profil.php?user=<?php echo $userId; ?>">Mon profil</a></li>
+                    <li><a href="profil.php?user=<?php echo $userId; ?>">Mon profil</a></li>
                 <?php endif; ?>
             </ul>
         </nav>

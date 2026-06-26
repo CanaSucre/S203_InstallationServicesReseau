@@ -194,7 +194,7 @@
                                 
                             
                                 <div class="d-flex flex-col gap-1">
-                                    <a class="txt-center btn" target="_blank" href="../profil/profil.php?user=' . $row['id'] . '">Afficher le profil</a>
+                                    <a class="txt-center btn" target="_blank" href="../profil.php?user=' . $row['id'] . '">Afficher le profil</a>
                                     <form method="post" style="display: inline;">
                                         <input type="hidden" name="deleteUser" value="' . $row['id'] . '">
                                         <button type="submit" class="txt-center btn">Supprimer le compte</button>

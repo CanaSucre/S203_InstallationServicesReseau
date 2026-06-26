@@ -18,7 +18,7 @@
 		if ($row) {
 			$user = $row[0];
 		} else {
-			header('Location: https://regabillard.fr/IUT/s203/login/login.php');
+			header('Location: https://regabillard.fr/IUT/s203/login.php');
 			exit();
 		}
 	}

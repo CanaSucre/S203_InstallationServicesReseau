@@ -24,7 +24,7 @@
 
 				
 
-				header('Location: https://regabillard.fr/IUT/s203/profil/profil.php');
+				header('Location: https://regabillard.fr/IUT/s203/profil.php');
   				exit();
 			} else {
 				$txtError = "Le mot de passe est incorrect.";
