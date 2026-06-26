@@ -37,7 +37,7 @@
         <h1>LE JEU DE L'OIE </h1>
         <nav>
             <ul>
-                <li><a href="classement.html">Classement</a></li>
+                <li><a href="#classement">Classement</a></li>
                 <?php if (!$estConnecte): ?>
                     <li><a href="signup.php">S'inscrire</a></li>
                     <li><a href="login.php">Se connecter</a></li>
